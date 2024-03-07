@@ -10,7 +10,7 @@ function App() {
   const myCollection = collection(database, 'users');
 
   const handleInput = (event) => {
-    let  newInput = { [event.target.name]: event.target.value };
+    let newInput = { [event.target.name]: event.target.value };
     setData({ ...data, ...newInput });
   };
 
